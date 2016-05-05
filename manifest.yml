@@ -18,7 +18,6 @@ applications:
   disk_quota: 512M
   command: NODE_ENV=production node server/start.js
   domain: mybluemix.net
-  host: ibmwatson-nlc-groundtruth
   env:
     SESSION_SECRET: ibmwatson-nlc-groundtruth-session
     COOKIE_SECRET: ibmwatson-nlc-groundtruth-cookie
